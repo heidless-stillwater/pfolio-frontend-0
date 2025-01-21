@@ -6,10 +6,11 @@ import { useTheme } from '@mui/material/styles';
 import HelpIcon from '@mui/icons-material/HelpOutlineOutlined';
 import AdbIcon from '@mui/icons-material/Adb';
 import AdfScannerIcon from '@mui/icons-material/AdfScanner';
+import AttributionIcon from '@mui/icons-material/Attribution';
 
 import ManageSearchIcon from '@mui/icons-material/ManageSearchOutlined';
 
-const HeroButtons_4 = () => {
+const HeroButtons_5 = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
@@ -32,7 +33,7 @@ const HeroButtons_4 = () => {
           size='large'
           href='https://main--scrumming-it.netlify.app/'
           target='_blank'
-          endIcon={<AdfScannerIcon />}
+          endIcon={<AttributionIcon />} 
           fullWidth={isMd ? false : true}
           disableElevation={true}
           sx={{
@@ -86,4 +87,4 @@ const HeroButtons_4 = () => {
   );
 };
 
-export default HeroButtons_4;
+export default HeroButtons_5;
