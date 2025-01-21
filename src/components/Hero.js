@@ -12,6 +12,7 @@ import HeroButtons_1 from './HeroButtons_1';
 import HeroButtons_2 from './HeroButtons_2';
 import HeroButtons_3 from './HeroButtons_3';
 import HeroButtons_4 from './HeroButtons_4';
+import HeroButtons_5 from './HeroButtons_5';
 
 const Hero = () => {
   const theme = useTheme();
@@ -92,6 +93,7 @@ const Hero = () => {
                     <HeroButtons_1 />
                     <HeroButtons_2 />
                     <HeroButtons_4 />
+                    <HeroButtons_5 />
                     <HeroButtons_3 />
                   </Box>
                 </Container>
