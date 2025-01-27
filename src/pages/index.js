@@ -18,11 +18,11 @@ const Home = () => {
     <div id='home'>
       <Hero />
       <About />
+      <Portfolios />
       <Examples />
       <Samples />
       <Tools />
       <Demos />
-      {/* <Portfolios /> */}
       {/* <Showcases /> */}
       <Projects />
       <Technologies />

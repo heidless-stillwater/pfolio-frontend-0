@@ -54,7 +54,7 @@ const Portfolios = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Portfolio
+            Sample Projects
           </Typography>
           <Typography
             variant='h6'
@@ -64,7 +64,7 @@ const Portfolios = () => {
             marginTop={4}
             marginBottom={6}
           >
-            View some of our latest portfolios
+            Projects of interest.
           </Typography>
         </Box>
         <Grid container spacing={4}>
@@ -179,7 +179,7 @@ const Portfolios = () => {
                       target='_blank'
                       sx={{ textTransform: 'none' }}
                     >
-                      Source Code
+                      Visit
                     </Button>
                   </CardActions>
                 </Box>
