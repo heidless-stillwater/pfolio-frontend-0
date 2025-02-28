@@ -128,11 +128,6 @@ const Header = ({ onSidebarOpen }) => {
               text='Portfolio'
             />
             <CustomButton
-              href='#portfolios'
-              icon={<ListIcon />}
-              text='TST'
-            />
-            <CustomButton
               href='#samples'
               icon={<ListIcon />}
               text='RubyOnRails'
