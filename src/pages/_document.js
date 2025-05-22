@@ -9,8 +9,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-        <link href='https://storage.cloud.google.com/pfolio-backend-v1-bucket-0/icons/pfolio-frontend-favicon.png' rel='shortcut icon' />
-        <link href='https://storage.googleapis.com/pfolio-backend-2-bucket-0/images/favicon.png' rel='shortcut icon' />
+        <link href='https://storage.cloud.google.com/pfolio-backend-v1-bucket-1/icons/pfolio-frontend-favicon.png' rel='shortcut icon' />
 
         <link
             href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'
