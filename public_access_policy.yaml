@@ -1,0 +1,9 @@
+# public_access_policy.yaml
+name: projects/heidless-portfolio/policies/iam.allowedPolicyMemberDomains
+spec:
+  # This tells the policy to completely replace any policy inherited from the Organization/Folder.
+  inheritFromParent: false 
+  rules:
+    # This is the correct rule structure for a List Policy to allow all members/domains.
+    - allowAll: true 
+    
